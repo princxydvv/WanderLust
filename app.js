@@ -1,3 +1,5 @@
+const { reviewSchema } = require("./schema.js");
+
 if (process.env.NODE_ENV != "production") {
     require('dotenv').config();
 }
@@ -41,16 +43,17 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const store = MongoStore.create({
     mongoUrl: dbUrl,
-    touchAfter: 24 * 60 * 60, // time period in seconds to limit session updates
     crypto: {
         secret: process.env.SECRET
     },
-    touchAfter: 24 * 3600,
+    touchAfter: 24 * 60 * 60 // 1 day
 });
 
-store.on("error", () => {
+
+store.on("error", (err) => {
     console.log("ERROR IN MONGO SESSION STORE", err);
 });
+
 
 const sessionOptions = {
     store,
