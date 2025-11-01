@@ -31,7 +31,11 @@ main()
         console.log(err);
     })
 async function main() {
-   await mongoose.connect(dbUrl, { dbName: "wanderlust" });
+  await mongoose.connect(dbUrl, {
+    dbName: "wanderlust",
+    serverSelectionTimeoutMS: 20000,
+    retryWrites: true,
+  });
 }
 
 app.set("view engine", "ejs");
