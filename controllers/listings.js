@@ -2,28 +2,29 @@ const Listing = require("../models/listing");
 const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding');
 const mapToken = process.env.MAP_TOKEN;
 const geocodingClient = mbxGeocoding({ accessToken: mapToken });
-
 module.exports.index = async (req, res) => {
-    const allListings = await Listing.find({ owner: req.user._id });
-
+    const allListings = await Listing.find({});
     res.render("listings/index.ejs", { allListings });
 };
+
 
 module.exports.renderNewForm = (req, res) => {
     res.render("listings/new.ejs");
 };
 
 module.exports.showListing = async (req, res) => {
-    let { id } = req.params;
-    const listing = await Listing.findById(id).populate({ path: "reviews", populate: { path: "author" }, }).populate("owner");
+    const { id } = req.params;
+    const listing = await Listing.findById(id)
+        .populate({ path: "reviews", populate: { path: "author" } })
+        .populate("owner");
+
     if (!listing) {
-        req.flash("error", " Listing you requested for does not exist");
+        req.flash("error", "Listing you requested for does not exist");
         return res.redirect("/listings");
     }
-    console.log(listing);
     res.render("listings/show.ejs", { listing, currUser: req.user });
-
 };
+
 
 module.exports.createlisting = async (req, res, next) => {
     let response = await geocodingClient.forwardGeocode({
