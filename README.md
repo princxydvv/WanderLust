@@ -1,83 +1,85 @@
-##🏡 WanderLust – Airbnb Clone
+# 🏡 **WanderLust – Airbnb Clone**
 
-A full-stack MERN-style web application inspired by Airbnb where users can explore destinations, create listings, upload images, post reviews, manage bookings, and more.
-Built with Node.js, Express, MongoDB, EJS, and deployed on Render with Cloudinary & Mapbox integration.
+Welcome to **WanderLust**, a full-stack web application inspired by Airbnb 🌍  
+Users can explore destinations, create & manage listings, upload images, post reviews, and book stays (future update 🚀).  
+Built using **Node.js, Express, MongoDB, EJS** and integrated with **Cloudinary & Mapbox**.
 
-##🌐 Live Demo
+---
 
-##🔗 Deployed Link:(https://wanderlust-pq19.onrender.com)
+## 🚀 **Live Demo**
 
-##📸 Screenshots
-  Homepage	Listings Page	Single Listing
-  (Add)	(Add)	(Add)
+🔗 **App Link:** https://wanderlust-pq19.onrender.com
 
-👉 Add screenshots in /assets folder & reference here
+---
 
-#3🛠️ Tech Stack
-##🎨 Frontend
+## ✨ **Features**
 
-HTML5, CSS3, JavaScript
+- ✅ **User Authentication** (Login / Signup)
+- 🏠 **Create, Edit & Delete Listings**
+- 🖼️ **Cloudinary Image Uploads**
+- ⭐ **Add Reviews & Ratings**
+- 🗺️ **Mapbox Interactive Maps**
+- 🔐 **Role-based access control**
+- ⚠️ **Flash messages & validations**
+- 📱 **Responsive UI**
+- 🧭 **MVC Architecture**
 
-EJS Templates
+---
 
-Bootstrap (add Tailwind if used)
+## 📸 **Screenshots**
 
-##🧠 Backend
+| Home | Listings | Single Listing |
+|------|---------|----------------|
+| *(Add)* | *(Add)* | *(Add)* |
 
-Node.js
+> Place images in `/assets` and update table paths
 
-Express.js (MVC Architecture)
+---
 
-Passport.js (Authentication)
+## 🛠️ **Tech Stack**
 
-##🗄️ Database
+### 🎨 **Frontend**
+- HTML, CSS, JavaScript  
+- EJS Templates  
+- Bootstrap  
 
-MongoDB Atlas
+### 🧠 **Backend**
+- Node.js  
+- Express.js  
+- Passport.js Authentication  
 
-Mongoose
+### 🗄️ **Database**
+- MongoDB Atlas  
+- Mongoose ORM  
 
-#3☁️ Cloud Services
+### ☁️ **Cloud Services**
+| Service | Use |
+|--------|------|
+| Cloudinary | Image Storage |
+| Mapbox | Maps + Geocoding |
+| Render | Hosting |
+| MongoDB Atlas | Database |
 
-Cloudinary (Image Uploads)
+---
 
-Mapbox (Maps & Geocoding)
+---
 
-Render (Hosting)
+## 🔮 **Future Enhancements**
 
-##✨ Features
+- ✅ Booking System  
+- ✅ Favorites / Wishlist  
+- ✅ Filters & Search  
+- ✅ Host-Guest Chat  
 
-✔️ User Authentication (Login / Signup)
-✔️ Create, Edit & Delete Listings
-✔️ Upload Images via Cloudinary
-✔️ Add Reviews & Ratings
-✔️ View properties on interactive Mapbox Map
-✔️ Flash messages, error handling & validations
-✔️ Owner-based access control
-✔️ Fully responsive UI
+---
 
-/
+## 👨‍💻 **Author**
 
-##🌍 Deployment
-Service	Usage
-MongoDB Atlas	Database
-Cloudinary	Media storage
-Render	Server deployment
-Mapbox	Location services
+**Prince Yadav**  
+GitHub: https://github.com/princxydvv
 
-##👨‍💻 Author : Prince Yadav
-🌐 GitHub: @princxydvv
+---
 
-⭐ Support
+## ⭐ **Support**
 
-If you like this project, please ⭐ the repo!
-It motivates me to build more amazing projects 🙌
-
-💡 Future Enhancements
-
-✅ Booking System
-
-✅ Wishlist / Favorites
-
-✅ Listing Filters & Search
-
-✅ Chat between Host & Guest
+If you like this project, please give it a ⭐ on GitHub — it motivates me 🙌
