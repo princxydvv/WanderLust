@@ -1,20 +1,20 @@
-🏡 WanderLust – Airbnb Clone
+##🏡 WanderLust – Airbnb Clone
 
 A full-stack MERN-style web application inspired by Airbnb where users can explore destinations, create listings, upload images, post reviews, manage bookings, and more.
 Built with Node.js, Express, MongoDB, EJS, and deployed on Render with Cloudinary & Mapbox integration.
 
-🌐 Live Demo
+##🌐 Live Demo
 
-🔗 Deployed Link:(https://wanderlust-pq19.onrender.com)
+##🔗 Deployed Link:(https://wanderlust-pq19.onrender.com)
 
-📸 Screenshots
-Homepage	Listings Page	Single Listing
-(Add)	(Add)	(Add)
+##📸 Screenshots
+  Homepage	Listings Page	Single Listing
+  (Add)	(Add)	(Add)
 
 👉 Add screenshots in /assets folder & reference here
 
-🛠️ Tech Stack
-🎨 Frontend
+#3🛠️ Tech Stack
+##🎨 Frontend
 
 HTML5, CSS3, JavaScript
 
@@ -22,7 +22,7 @@ EJS Templates
 
 Bootstrap (add Tailwind if used)
 
-🧠 Backend
+##🧠 Backend
 
 Node.js
 
@@ -30,13 +30,13 @@ Express.js (MVC Architecture)
 
 Passport.js (Authentication)
 
-🗄️ Database
+##🗄️ Database
 
 MongoDB Atlas
 
 Mongoose
 
-☁️ Cloud Services
+#3☁️ Cloud Services
 
 Cloudinary (Image Uploads)
 
@@ -44,7 +44,7 @@ Mapbox (Maps & Geocoding)
 
 Render (Hosting)
 
-✨ Features
+##✨ Features
 
 ✔️ User Authentication (Login / Signup)
 ✔️ Create, Edit & Delete Listings
@@ -57,14 +57,14 @@ Render (Hosting)
 
 /
 
-🌍 Deployment
+##🌍 Deployment
 Service	Usage
 MongoDB Atlas	Database
 Cloudinary	Media storage
 Render	Server deployment
 Mapbox	Location services
 
-👨‍💻 Author : Prince Yadav
+##👨‍💻 Author : Prince Yadav
 🌐 GitHub: @princxydvv
 
 ⭐ Support
