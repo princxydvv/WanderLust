@@ -1,96 +1,83 @@
-#🏡 WanderLust – Airbnb Clone
+🏡 WanderLust – Airbnb Clone
 
-WanderLust is a full-stack web application inspired by Airbnb where users can explore stays, create property listings, review stays, and manage their travel bookings.
-It is built using the MVC Architecture, RESTful Routing, and Cloud Deployment tools.
+A full-stack MERN-style web application inspired by Airbnb where users can explore destinations, create listings, upload images, post reviews, manage bookings, and more.
+Built with Node.js, Express, MongoDB, EJS, and deployed on Render with Cloudinary & Mapbox integration.
 
-🚀 Live Demo
+🌐 Live Demo
 
-🔗 Live Link (Render): Add your deployed link here
+🔗 Deployed Link:(https://wanderlust-pq19.onrender.com)
 
-📸 Project Preview
+📸 Screenshots
+Homepage	Listings Page	Single Listing
+(Add)	(Add)	(Add)
 
-Add Screenshots here
-
-Homepage
-
-Listing Page
-
-Listing Detail Page
-
-Create Listing Form
-
-Register / Login Page
+👉 Add screenshots in /assets folder & reference here
 
 🛠️ Tech Stack
-Frontend
+🎨 Frontend
 
-HTML5, CSS3, EJS
+HTML5, CSS3, JavaScript
 
-Bootstrap / Tailwind (choose based on your project)
+EJS Templates
 
-JavaScript
+Bootstrap (add Tailwind if used)
 
-Backend
+🧠 Backend
 
 Node.js
 
-Express.js (MVC Pattern)
+Express.js (MVC Architecture)
 
-Passport.js Authentication
+Passport.js (Authentication)
 
-Database
+🗄️ Database
 
 MongoDB Atlas
 
-Mongoose ODM
+Mongoose
 
-Cloud & APIs
+☁️ Cloud Services
 
-Cloudinary (Image Upload)
+Cloudinary (Image Uploads)
 
-Mapbox (Location & Geocoding API)
+Mapbox (Maps & Geocoding)
 
-Render (Deployment)
+Render (Hosting)
 
 ✨ Features
 
-✅ User Signup & Login (Authentication)
-✅ Create, Edit, Delete Property Listings
-✅ Add Images to Listings
-✅ Reviews & Ratings System
-✅ Interactive Map for Location
+✔️ User Authentication (Login / Signup)
+✔️ Create, Edit & Delete Listings
+✔️ Upload Images via Cloudinary
+✔️ Add Reviews & Ratings
+✔️ View properties on interactive Mapbox Map
+✔️ Flash messages, error handling & validations
+✔️ Owner-based access control
+✔️ Fully responsive UI
 
-Deployment
+/
 
-This app is deployed using Render
-Database & storage:
+🌍 Deployment
+Service	Usage
+MongoDB Atlas	Database
+Cloudinary	Media storage
+Render	Server deployment
+Mapbox	Location services
 
-MongoDB Atlas
+👨‍💻 Author : Prince Yadav
+🌐 GitHub: @princxydvv
 
-Cloudinary for Media
-
-🎯 Learning Outcomes
-
-Full MERN-Stack Workflow (Backend-heavy)
-
-MVC Architecture with Express
-
-Handling Cloud File Uploads
-
-Auth & Authorization with Passport.js
-
-Working with APIs (Mapbox)
-
-Deploying a Full-stack App
-
-🧑‍💻 Author
-
-👤 Prince Yadav
-📧 Email : princeyada7244@gmail.com
-
-⭐ Show Your Support
+⭐ Support
 
 If you like this project, please ⭐ the repo!
-✅ Flash Messages & Error Handling
-✅ Owner-based Access Control
-✅ Fully Responsive UI
+It motivates me to build more amazing projects 🙌
+
+💡 Future Enhancements
+
+✅ Booking System
+
+✅ Wishlist / Favorites
+
+✅ Listing Filters & Search
+
+✅ Chat between Host & Guest
